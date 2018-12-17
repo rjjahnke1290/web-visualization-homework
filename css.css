@@ -1,0 +1,80 @@
+/* Latitude Label*/
+.navbar-default .navbar-header{
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: teal; }
+.navbar-header a.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: white; 
+    margin-left: 40px;}
+
+/*Summary*/
+.container{
+    
+    width: auto;
+}
+
+.container1{
+    
+    padding: 20px;
+}
+.summary-box {
+    font-size: 17px;
+    margin: 20px 5px 0px 10px;
+    padding:5px 5px 5px 5px;
+    float: left;
+}
+.jumbotron h1{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color:teal;
+}
+
+.summary{
+    margin-top: 30px;
+}
+.jumbotron p{
+    font-size: 17px;
+}
+
+.iconDetails {
+    margin-left:10px;
+    margin-right: 20px;
+   float:left; 
+   } 
+.plot-box {
+    font-size: 17px;
+    margin: 20px 0px 20px 0px;
+    padding:5px 5px 10px 5px;
+    float: right;}
+
+.container2{
+    padding: 10px;
+
+}
+
+#indvidual-plot{
+    padding: 10px;
+    height: auto;
+
+}
+
+.jumbotron{
+    padding: 10px;
+    height: 400px;
+}
+
+.plots img{
+    margin-right:5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* Adding media queries to change plots position when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+.navbar-collapse.in{ overflow-y:visible;}
